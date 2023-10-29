@@ -1,0 +1,165 @@
+body{
+    background-image: url("./images/6272.jpg");
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.haut{
+    background-color: white;
+    position: sticky;
+    top:0
+}
+
+#logo{
+    min-width: 150px;
+    max-width: 200px;
+    margin-top: -30px;
+    margin-left: -20px;
+}
+
+nav{
+    float: right;
+    margin-top: 65px;
+    margin-right: 50px;
+}
+
+nav a{
+    padding: 0 30px;
+    text-decoration: none;
+    font-size: 2vh;
+    color:  rgb(90, 79, 64);
+    font-weight: 700;
+}
+
+nav a:hover{
+    color: rgb(121, 164, 211);    
+}
+
+.banniere{
+    background-image: url("./images/mal\ de\ dos.jpg");
+    background-size: cover;
+    max-height: 900px;
+    min-height: 700px;
+    margin-top: -37px;
+}
+
+.horaires h3{
+    padding: 200px 0 0 8%;
+    font-size: xx-large;
+    color:  rgb(90, 79, 64)  ;
+}
+
+.horaires p{
+    margin-left: 8%;
+    font-size: 25px;
+}
+/*----------fin du header--------------*/
+
+/******-------------------------------------------1ère page index---------------------------------------******/
+/*-----------début menu -----------*/
+
+
+.menu img { 
+    width: 500px; 
+    box-shadow: 5px 5px 10px rgb(76, 136, 168); 
+    animation: move 3s normal; 
+} 
+ 
+@keyframes move { 
+    from { 
+        margin-top: 0%; 
+        width: 15%; 
+    } 
+    to { 
+        margin-bottom: 50%; 
+        width: 20%; 
+    } 
+    to{
+        margin-bottom: 100%;
+        width: 30%;
+    }
+} 
+
+.menu img:hover{
+    opacity: 0.7;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+figcaption{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+button{
+    height: 40px;
+    width: 120px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+button:hover{
+    background-color:  rgb(90, 79, 64);
+    color: white;
+}
+
+button a{
+    text-decoration: none;
+}
+
+
+
+
+/*---------début footer-------*/
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom, #98ecf4, #b9efff, #d9f2ff, #f2f7ff, #ffffff);
+    padding-bottom: 10px;
+}
+
+footer p{
+    margin: 3px 0;
+}
+
+footer h3{
+    color: rgb(90, 79, 64)    
+}
+
+footer h4{
+    margin-bottom: 3px;
+}
+
+/**********************--------------------------page douleurs articulaires-----------------------***************************/
+.articulaires{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.articulaires p{
+    text-align: justify;
+    margin: 0 30px;
+
+}
+
+.articulaires h3{
+    margin:30px;
+}
+
+#major{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
